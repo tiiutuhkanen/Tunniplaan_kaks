@@ -12,6 +12,21 @@
 - Aleksander Tõru
 - Erich Hõbe
 
+## Tiimid:
+### Javascript:
+- Martin Trumann
+- Aleksander Tõru
+- Carlos Tuuling
+### HTML/CSS:
+- Daniel Nõukas
+- Sander Randmets
+- Tiiu Tuhkanen
+- Erki Tammeaid
+### Figma:
+- Erich Hõbe
+- Arno Kosk
+- Ramon Darko Pung
+
 **FIGMA PROTOTÜÜP**
 
 - Desktop/Mobiili vaade
