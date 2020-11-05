@@ -1,4 +1,4 @@
-# tunniplaan_kaks
+# Tunniplaan_kaks
 
 ### Tiimiliikmed:
 - Erki Tammeaid
