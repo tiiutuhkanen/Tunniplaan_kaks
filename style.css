@@ -1,17 +1,25 @@
-.button {
-    margin-left: 250px;
+div {
+    background-color: whitesmoke;
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: left;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+}
+.time {
+    display: flex;
+    justify-content: space-between;
 }
 
-.weekdays {
+.k206 {
     display: flex;
-    justify-content: center;
-    font-size: 25px;
+    margin-right: ;
+
 }
-.weekday {
+.space {
     display: flex;
-    justify-content: center;
-    margin: 20px;
-    border-style: solid;
-    /*border-right:1px solid #000;*/
-    border-width: 10px;
+    justify-content: space-between;
 }
