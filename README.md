@@ -13,16 +13,16 @@
 - Erich Hõbe
 
 ## Tiimid:
-### Javascript:
+### Javascript
 - Martin Trumann
 - Aleksander Tõru
 - Carlos Tuuling
-### HTML/CSS:
+### HTML/CSS
 - Daniel Nõukas
 - Sander Randmets
 - Tiiu Tuhkanen
 - Erki Tammeaid
-### Figma:
+### Figma
 - Erich Hõbe
 - Arno Kosk
 - Ramon Darko Pung
