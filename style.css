@@ -1,24 +1,41 @@
 div {
-    background-color: whitesmoke;
+    background-color: #6CC644;
     width: 300px;
     border: 2px solid black;
-    padding: 50px;
+    padding: 10px;
     margin: left;
     font-style: normal;
-    font-weight: bold;
     text-align: left;
     display: flex;
+    color: white;
 }
 .time {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: -2px;
+    align-items: center;
+    font-size: larger;
 }
 
-.k206 {
+/*.k206 {
     display: flex;
-    margin-right: ;
+    justify-content: space-between;
+    position: relative;
+    top: -35px;
+    font-size: larger;
+}*/
+
+.maths {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -2px;
+    align-items: center;
+    font-size: larger;
 
 }
+
 .space {
     display: flex;
     justify-content: space-between;
