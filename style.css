@@ -1,0 +1,17 @@
+.button {
+    margin-left: 250px;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.weekday {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-style: solid;
+    /*border-right:1px solid #000;*/
+    border-width: 10px;
+}
