@@ -1,13 +1,14 @@
-div {
+.maths-box {
     background-color: #6CC644;
-    width: 300px;
     border: 2px solid black;
     padding: 10px;
-    margin: left;
+    margin: auto;
+    margin-bottom: 10px;
     font-style: normal;
     text-align: left;
     display: flex;
     color: white;
+    max-width: 500px;
 }
 .time {
     display: flex;
@@ -17,14 +18,6 @@ div {
     align-items: center;
     font-size: larger;
 }
-
-/*.k206 {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: -35px;
-    font-size: larger;
-}*/
 
 .maths {
     display: flex;
@@ -36,7 +29,96 @@ div {
 
 }
 
-.space {
+.maths-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.english-box {
+    background-color: #6CC644;
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-style: normal;
+    text-align: left;
+    display: flex;
+    color: white;
+    max-width: 500px;
+}
+
+.time1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -2px;
+    align-items: center;
+    font-size: larger;
+}
+
+.english {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -2px;
+    align-items: center;
+    font-size: larger;
+}
+
+.english-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.geography-box {
+    background-color: #6CC644;
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-style: normal;
+    text-align: left;
+    display: flex;
+    color: white;
+    max-width: 500px;
+}
+
+.time2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -2px;
+    align-items: center;
+    font-size: larger;
+}
+
+.geography{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -2px;
+    align-items: center;
+    font-size: larger;
+}
+
+.geography-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day>div:nth-child(3) {
+    margin-top: 100px;
+}
+
+
+
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.weekdays {
     display: flex;
     justify-content: space-between;
 }
