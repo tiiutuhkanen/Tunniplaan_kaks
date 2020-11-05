@@ -10,8 +10,17 @@
 .weekday {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     border-style: solid;
-    /*border-right:1px solid #000;*/
-    border-width: 10px;
+    padding: 15px;
+}
+.selected {
+    display: flex;
+    /*position: relative;*/
+    background-color: aqua;
+    justify-content: center;
+    width: 70%;
+    height: 5px;
+    margin-top: -5px;
+    margin-left: 10px;
 }
