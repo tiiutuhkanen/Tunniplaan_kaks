@@ -41,10 +41,17 @@
 - Tiimitöö arenes
 - HTML/CSS õppimine
 ### Daniel 
-- Oleks soovinud Figmat rohkem teha
+- Oleks tahtnud Figmat rohkem teha
 - Suhtluse arendamine oma tiimiga
 - HTML/CSS erinevate koodijuppide õppimine
-
+### Tiiu 
+- Ei
+- Suutis sõbralikuks jääda
+- Githubi projekti loomine, flexbox CSS-is, span HTML-is, unicode sümbolite kasutamine, tekstisuuruse muutmine
+### Arno 
+- Oleks tahtnud HTML/CSS teha
+- Ei õppind midagi
+- Suhtluse arendamine tiimikaaslastega
 
 **FIGMA PROTOTÜÜP**
 
