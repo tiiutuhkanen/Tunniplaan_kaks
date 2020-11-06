@@ -52,6 +52,10 @@
 - Oleks tahtnud HTML/CSS teha
 - Ei õppind midagi
 - Suhtluse arendamine tiimikaaslastega
+### Ramon 
+- Ei
+- Oskus julgemalt küsida abi ja abi pakkumine figmas
+- Figmat paremini kasutama ja ,et ma saan nüüd julgemat abi pakkuda
 
 **FIGMA PROTOTÜÜP**
 
