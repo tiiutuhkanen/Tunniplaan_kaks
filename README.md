@@ -27,6 +27,25 @@
 - Arno Kosk
 - Ramon Darko Pung
 
+## Tiimi liikmete vastused kolmele küsimusele:
+### Martin
+- Ei
+- Teiste aitamine
+- JS koodi mooduliteks muutmine
+### Carlos
+- Oleks soovinud Figmat teha
+- Suhtluse arendamine
+- JS juurdeõppimine
+### Erki
+- Ei
+- Tiimitöö arenes
+- HTML/CSS õppimine
+### Daniel 
+- Oleks soovinud Figmat rohkem teha
+- Suhtluse arendamine oma tiimiga
+- HTML/CSS erinevate koodijuppide õppimine
+
+
 **FIGMA PROTOTÜÜP**
 
 - Desktop/Mobiili vaade
