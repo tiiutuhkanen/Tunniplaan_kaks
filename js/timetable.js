@@ -58,7 +58,7 @@ function Timeteable(elm){
 
 						elm.insertAdjacentHTML("beforeend",
 							`
-							<div class="dateName">
+							<div id="${date.format("dddd").toLowerCase()}"class="dateName">
 								<span>${date.format("dddd")}</span>
 								<span>${date.format("DD.MM.YY")}</span>
 							</div>
