@@ -15,42 +15,69 @@ function Timeteable(elm){
 	}
 
 	this.getLessons = async function (){
-		let raw = await fetch("https://be.ta19heinsoo.itmajakas.ee/api/lessons/"
-				+ this.findGetParameter("type") + "=" + this.findGetParameter("id")
-				+ "&weeks=" + this.findGetParameter("week"))
-		// let raw = await fetch("lessons.json")
-		this.data = await raw.json()
+		if(this.findGetParameter("type") && this.findGetParameter("id") && this.findGetParameter("week")){
+			let raw = await fetch("https://be.ta19heinsoo.itmajakas.ee/api/lessons/"
+					+ this.findGetParameter("type") + "=" + this.findGetParameter("id")
+					+ "&weeks=" + this.findGetParameter("week"))
+			// let raw = await fetch("lessons.json")
+			this.data = await raw.json()
 
-		return this.data
+			return this.data
+		}else{
+			return null
+		}
 	}
 
-	this.addLesson = function (times, room, lesson, teacher){
-		this.elm.insertAdjacentHTML("beforeend", (
-			`<div id="res">
-				<div style="border: solid 5px black;" >
-					<div style="font-weight: bold; display: flex; justify-content: space-between; font-size: 2rem" class="top">
-						<span class="times">${times}</span>
-						<span class="room">${room}</span>
+	this.addLesson = function (elm, times, room, lesson, teacher){
+		elm.insertAdjacentHTML("beforeend", (
+			`
+				<div class="lesson">
+					<div class="top">
+						<span>${times}</span>
+						<span>${room}</span>
 					</div>
 
-					<div style="font-weight: bold;" class="lesson">${lesson}</div>
+					<div class="lessonName">${lesson}</div>
 					<div class="teacher">${teacher}</div>
 				</div>
-			</div>`
+			`
 		))
 	}
 
 	this.getLessons().then(() => {
-		if(this.data.timetableEvents != undefined){
+		if(this.data != undefined && this.data.timetableEvents != undefined){
+
+			let elm, prevDate
 			this.data.timetableEvents.forEach(item => {
 				if(item.nameEt != null){
+					date = moment(item.date)
+
+					if(date.date() != prevDate){
+						elm = document.createElement("div")
+						elm.className = "day"
+
+						elm.insertAdjacentHTML("beforeend",
+							`
+							<div class="dateName">
+								<span>${date.format("dddd")}</span>
+								<span>${date.format("DD.MM.YY")}</span>
+							</div>
+							`
+						)
+					}
+
 					time = item.timeStart + "-" + item.timeEnd;
 					this.addLesson(
+						elm,
 						time,
 						item.rooms[0].roomCode,
 						item.nameEt,
 						item.teachers[0].name,
 					)
+
+					prevDate = date.date()
+
+					this.elm.insertAdjacentElement("beforeend", elm)
 				}
 			})
 		}
