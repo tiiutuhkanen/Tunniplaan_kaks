@@ -19,29 +19,11 @@
 		<h2>Kolmapäev</h2>
 	</div>
 
-	<div class="day">
-		<div class="lesson">
-			<span>8.30</span>
-			<span>Matemaatika</span>
-			<img src="arrow.svg" >
-		</div>
+	<div id="table"></div>
 
-		<div class="lesson">
-			<span>10.15</span>
-			<span>Inglise keel</span>
-			<img src="arrow.svg" >
-		</div>
-
-		<div class="lesson free">
-			<span>12.45</span>
-		</div>
-
-		<div class="lesson">
-			<span>12.45</span>
-			<span>Loodusgeograafia</span>
-			<img src="arrow.svg" >
-		</div>
-	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script src="js/timetable.js"></script>
+	<script>new Timeteable(document.querySelector("#table"))</script>
 </body>
 
 </html>

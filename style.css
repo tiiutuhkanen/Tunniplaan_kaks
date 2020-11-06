@@ -10,28 +10,37 @@ body {
 	margin-bottom: 10px;
 	font-style: normal;
 	text-align: left;
-	display: flex;
 	color: white;
 	max-width: 500px;
-
-	display: flex;
-	justify-content: space-between;
 }
 
 .lesson.free {
 	background-color: hsla(102, 53%, 80%);
 }
 
-.lesson > span {
+.lesson .top{
 	display: flex;
 	justify-content: space-between;
-	position: relative;
-	top: -2px;
+	font-size: 1.5rem;
+	font-weight: bold;
+
+}
+
+.lesson .lessonName {
+	font-weight: bold
+}
+
+.lesson > span {
 	align-items: center;
 	font-size: larger;
 }
 
-.day > div:nth-child(3) {
+.day .dateName {
+	margin: 2rem 0;
+	font-size: 1.5rem;
+}
+
+.day > div:nth-child(6) {
     margin-top: 100px;
 }
 
